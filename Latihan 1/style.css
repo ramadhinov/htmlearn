@@ -47,6 +47,12 @@ table {
 	border-spacing: 0;
 }
 
+/*
+* Bagian style utama
+* Dibuat secara manual oleh : http://linuxmannote.wordpress.com.
+* Lisensi : Kosong (umum)
+*/
+
 body {
     font: 16px/28px arial, sans-serif;
     background-color: #eaeaea;
@@ -54,6 +60,7 @@ body {
     background-image: url(gambar/background.png);
 }
 
+/* Bagian Utama */
 .container {
     width: 850px;
     margin: auto;
@@ -61,19 +68,12 @@ body {
     
 }
 
-.header {
-    padding: 20px; 
-}
+/* Bagian Header */
+.header { padding: 20px; }
 
-.header .judul {
-    font-size: 30px;
-    font-weight: bold;
-}
+.header .judul { font-size: 30px; font-weight: bold; }
 
-.header ul li {
-    display: inline-block;
-    margin: 20px 5px 0px;
-}
+.header ul li { display: inline-block; margin: 20px 5px 0px;}
 
 .header a {
     text-decoration: none;
@@ -86,6 +86,7 @@ body {
     color: white;
 }
 
+/* Bagian Hero*/
 .hero {
     height: 290px;
     background-image: url(gambar/gambar.jpg);
@@ -95,6 +96,7 @@ body {
     border-bottom: 3px solid #58555c;
 }
 
+/* Bagian content*/
 .content {
     padding: 15px;
 }
@@ -121,6 +123,7 @@ body {
     text-align: justify;
 }
 
+/* Bagian footer*/
 .footer {
     background-color: #333;
 }
